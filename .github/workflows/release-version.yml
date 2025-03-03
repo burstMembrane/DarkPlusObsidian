@@ -1,5 +1,19 @@
 name: Publish new theme version
-permissions: write-all
+permissions:
+    contents: write
+    pull-requests: write
+    issues: write
+    repository-projects: write
+    packages: write
+    actions: write
+    deployments: write
+    discussions: write
+    id-token: write
+    pages: write
+    security-events: write
+    statuses: write
+    checks: write
+
 on:
     push:
         # Sequence of patterns matched against refs/tags
