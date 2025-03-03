@@ -1,5 +1,5 @@
 name: Publish new theme version
-
+permissions: write-all
 on:
     push:
         # Sequence of patterns matched against refs/tags
